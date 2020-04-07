@@ -1,0 +1,341 @@
+/* 头部导航 */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #ececec;
+    padding: 11px 52px;
+    color:#555555;
+    font-size: 12px;
+}
+body{
+    min-width: 1000px;
+}
+.header_nav ul{
+    display: flex;
+}
+.header_nav ul li span{
+    margin-right: 5px;
+}
+.header_nav ul li span.loadMore{
+    display: inline-block;
+    width: 11px;
+    height: 8px;
+    background: url('../images/d_a.gif') no-repeat;
+    background-size: 100% 100%;
+}
+.header_nav ul li span.weibo,
+.header_nav ul li span.weixi
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url('../images/l_2_h.png') no-repeat;
+    background-size: 100% 100%;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.header_nav ul li span.weixi{
+    background: url('../images/l_4_h.png') no-repeat;
+    background-size: 100% 100%;
+}
+.header_nav ul li span.shouji{
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    background: url('../images/i_tel.png');
+    background-size: 100% 100%;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.header_nav ul li span.reg{
+    color: #ff4e00;
+}
+.header_nav ul li:after{
+    content:"|";
+    height: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.header_nav ul li.last:after{
+    content: "";
+    vertical-align: top;
+}
+
+/* 底部 */
+.footer{
+    color: #a58888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+    flex-direction: column;
+}
+.footer .baozhang{
+    display: flex;
+    text-align: center;
+}
+.footer .baozhang .bao{
+    margin-right: 100px;
+    padding-left: 90px;
+}
+.footer .baozhang .bao p:nth-of-type(1){
+    font-size: 16px;
+    color: #f40;
+    line-height: 30px;
+}
+.footer .baozhang .bao p:nth-of-type(2){
+    color: #888;
+}
+.footer .shouhou_box{
+    display: flex;
+    padding: 63px 51px;
+    border-bottom: 1px solid #eaeaea
+}
+.footer .shouhou_box .shouhou{
+    display: flex;
+}
+.footer .shouhou_box .shouhou li:hover{
+    color: #f40;
+}
+.footer .shouhou_box .shouhou ol {
+    margin-right: 100px;
+
+}
+
+.footer .shouhou_box .shouhou ol li{
+    color: #888;
+    line-height: 20px;
+}
+.footer .shouhou_box .shouhou ol li.h1{
+    font-size: 16px;
+    line-height: 30px;
+    color:black;
+}
+.footer .shouhou_box .erweima_box{
+    display: flex;
+}
+.footer .shouhou_box .erweima_box ol li img{
+    width: 28px;
+    height: 28px;
+    vertical-align: top;
+}
+.footer .shouhou_box .erweima_box .erweima .sao{
+    color: #606060;
+    margin-top: 14px;
+    text-align: center;
+}
+.footer .shouhou_box .erweima_box ol{
+    margin-left: 16px;
+}
+.footer .shouhou_box .erweima_box ol li{
+    color: #a58888;
+    margin-bottom: 14px;
+}
+.footer .shouhou_box .erweima_box ol li .tel{
+    color: #f40;
+    font-size: 16px;
+}
+.footer .biean{
+    padding: 28px 0 52px;
+}
+.footer .biean .yinlian {
+    margin-top: 22px;
+}
+.footer .biean .yinlian img{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+/* 搜索 */
+.logo_box{
+    display: inline-block;
+    width: 190px;
+    height: 76px;
+    background: url('../images/loginlogo.jpg');
+    background-size: 100% 100%;
+    margin-right: 128px;
+}
+.search{
+    padding: 44px 60px 28px;
+    display: flex;
+}
+.search_box{
+    vertical-align: top;
+    display: inline-block;
+}
+.search_box .box{
+    display: inline-flex;
+}
+.search_box .box .text{
+    text-indent: 1em;
+    outline: 0;
+    border: 2px solid #f40;
+    display: block;
+    height: 36px;
+    width: 407px;
+}
+.search_box .box .search_btn{
+    border: 0;
+    padding: 0 28px;
+    background: #f40;
+    color: #fff;
+    outline: 0;
+}
+.search_box .nav ul{
+    display: flex;
+    padding-top: 7px;
+}
+.search_box .nav ul li{
+    margin-right: 17px;
+    display: inline-block;
+}
+.search .cart_box{
+    vertical-align: top;
+    display: flex;
+    height: 38px;
+    box-sizing: border-box;
+    line-height: 38px;
+    margin-left: 212px;
+    border: 1px solid #d9d9d9;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+.search .cart_box .cart{
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background: url('../images/car.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 12px 20px 0 10px;
+    vertical-align: top;
+
+}
+.search .cart_box .cart_text{
+    color: #555;
+    /* margin-top: 15px; */
+    padding-right: 30px;
+    padding-top: 2px;
+}
+/* 商品内容 */
+.content{
+    width: 1200px;
+    /* padding: 0 82px 0 112px; */
+    position: relative;
+    margin: 0 auto;
+}
+.content .shangping_nav{
+    border-bottom: 2px solid #f40;
+    display: flex;
+    justify-content: space-between;
+}
+.content .shangping_nav ul{
+    display: flex;
+}
+.content .shangping_nav ul li{
+    margin-right: 18px;
+}
+.content .shangping_nav ul li a{
+    font-weight: bold;
+    display: block;
+    padding-top: 13px;
+    font-size: 16px;
+
+}
+.content .shangping_nav ul li a.active{
+    background: #f40;
+    color: #fff;
+    padding: 13px 70px  13px 35px;
+}
+.content .shangping_nav .download{
+    padding-top: 13px;
+}
+.content .shangping_nav .download .shouji{
+    width: 13px;
+    height: 19px;
+    display: inline-block;
+    background: url('../images/i_tel.png');
+    background-size: 100% 100%;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.content .shangping_nav .download .text{
+    color: #968d8b;
+}
+/* 商品路由 */
+.content .shangping_router{
+    display: flex;
+    padding: 22px 0 12px;
+}
+.content .shangping_router span{
+    margin-right: 6px;
+}
+.content .shangping_router .i{
+    padding-top: 3px;
+}
+.content .shangping_router .shangping_text{
+    font-style: oblique;
+    color: #ff0000;
+   
+}
+
+/* 用户喜欢 */
+.shangping_tuijian .user_love{
+    display: inline-block;
+    width: 211px;
+    /* border: 1px solid #eaeaea; */
+}
+.shangping_tuijian .user_love .title{
+    padding: 8px 14px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #eaeaea;
+}
+.shangping_tuijian .user_love .love{
+    border-left: 1px solid #eaeaea;
+}
+.shangping_tuijian .user_love .imgBox{
+    padding-top: 10px;
+}
+.shangping_tuijian .love {
+    border-bottom: 1px solid #eaeaea;
+
+}
+.shangping_tuijian .user_love p{
+    padding: 5px 0;
+    text-align: center;
+}
+.shangping_tuijian .user_love span{
+    display: block;
+    color: #cb5a04;
+    font-size: 16px;
+    text-align: center;
+}
+/* 分页 */
+.fenye{
+    padding:35px 10px 25px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    color: #666695;
+}
+.fenye span{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-left: 5px;
+}
+ .fenye p{
+    margin-left: 5px;
+    position: relative;
+    width: 10px;
+}
+.fenye p:after{
+    content: '...';
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.fenye .active{
+    color: #fff;
+    background: #f40;
+}

@@ -1,0 +1,172 @@
+.content .shangping_router .shangping_text{
+    font-style: normal;
+    border: 1px dotted #f40;
+    padding: 3px;
+    margin-top: -3px;
+}
+/* 品牌 */
+.pingpai_box{
+    border: 2px solid #eaeaea;
+}
+.pingpai_box ul{}
+.pingpai_box ul li{
+    padding: 17px 0 17px 17px;
+    display: flex;
+    border: 1px solid #eaeaea;
+
+}
+.pingpai_box ul li .pingpai{
+    width: 93px;
+}
+.pingpai_box ul li  .pingpai_shangping{
+    flex:1;
+
+}
+.pingpai_box ul li  .pingpai_shangping span{
+    margin-right: 25px;
+    line-height: 20px;
+    color: #999;
+}
+.pingpai_box ul li  .pingpai_shangping span.active{
+    color: #f40;
+}
+.shangping_tuijian{
+    align-items: flex-start;
+}
+.shangping_tuijian .user_love{
+    border-right: 1px solid #eaeaea;
+}
+.shangping_tuijian .user_love .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 14px;
+}
+.shangping_tuijian .user_love .title .first::after{
+    content: '';
+    position: absolute;
+    display: block;
+    top:2px;
+    left:0;
+    width: 3px;
+    height: 18px;
+    background: red;
+}
+.shangping_tuijian .user_love .title .first{
+    position: relative;
+    padding-left: 10px;
+}
+.shangping_tuijian .user_love .title span:last-child{
+    color: #999;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.shangping_tuijian {
+    margin-top: 20px;
+    display: flex;
+}
+.shangping_tuijian .moren {
+    flex:1;
+}
+.shangping_tuijian .moren .shaixuan{
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn{
+    border: 1px solid #eaeaea;
+    margin: 5px 0 8px 0;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn span{
+    border-right: 1px solid #eaeaea;
+    padding: 6px 32px 6px 12px;
+    display: inline-block;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn span:last-child{
+    border:0;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn span.active{
+    color: #fff;
+    background: #f40;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn span.icon{
+    position: relative;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn span.icon:after,
+.shangping_tuijian .moren .shaixuan .shaixian_btn span.icon:before{
+content:'';
+display: block;
+width: 6px;
+height: 4px;
+background: url('../images/i_down.gif');
+background-size: 100% 100%;
+right: 12px;
+bottom: 6px;
+position: absolute;
+}
+.shangping_tuijian .moren .shaixuan .shaixian_btn span.icon:after{
+    background: url('../images/i_up.gif');
+    background-size: 100% 100%;
+    top:6px;
+}
+.shangping_tuijian .moren .shaixuan p{
+    padding-top: 13px;
+}
+.shangping_tuijian .moren .shangping_box{
+    padding: 14px 0 0 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shangping_tuijian .moren .shangping_box .shangping{
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.shangping_tuijian .moren .shangping_box .img{
+    width: 210px;
+    height: 186px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.shangping_tuijian .moren .shangping_box .img img{
+    width: 210px;
+    height: 186px;
+    transition: all .2s linear;
+}
+.shangping_tuijian .moren .shangping_box .img:hover img{
+    transform: scale(1.2);
+}
+.shangping_tuijian .moren .shangping_box .money{
+    color: #f40;
+    font-size: 16px;
+    margin: 13px 0 15px 0;
+}
+.shangping_tuijian .moren .shangping_box .text{
+    color: #555555;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box{
+    border: 1px solid #eaeaea;
+    display: inline-flex;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box .sc{
+    padding: 5px 5px 4px 10px;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box .sc img{
+    margin-top: 2px;
+    margin-right: 11px;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box .sc span{
+    color: #999;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box .cart{
+    padding: 5px 15px 4px 24px;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box .cart img{
+    margin-right: 24px;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box .cart span{
+    color: #f40;
+}
+.shangping_tuijian .moren .shangping_box .shouchang_box span{
+    vertical-align: top;
+}

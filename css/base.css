@@ -1,0 +1,35 @@
+/* 重置样式 */
+body,html,ul,ol,li,h1,h2,h3,h4,h5,h6,p {
+	padding: 0;
+	margin: 0;
+	font: 12px Arial,Helvetica,sans-serif;
+}
+body{
+	min-width: 1200px;
+
+}
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: normal; 
+}
+li { 
+	list-style: none; 
+}
+a { 
+	text-decoration: none; 
+	color: #000;
+}
+img{
+	border:0;
+}
+.border-left{
+	border-left: 1px solid #eaeaea;
+}
+.border-right{
+	border-right: 1px solid #eaeaea;
+}
+.border-bottom{
+	border-bottom: 1px solid #eaeaea;
+}
+.border-top{
+	border-top: 1px solid #eaeaea;
+}

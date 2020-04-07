@@ -1,0 +1,393 @@
+/* 头部导航 */
+
+
+
+.content .shangping_details{
+    display: flex;
+    position: relative;
+}
+.content .shangping_details .img_box .img{
+    margin-right: 20px;
+    width: 417px;
+    height: 398px;
+    border: 1px solid #ccc;
+    background: url('../images/per_1.jpg');
+    background-size: 100% 100%;
+}
+.content .shangping_details .img_box .img_list{
+    display: flex;
+    padding: 12px 0 19px;
+    
+}
+.content .shangping_details .img_box .img_list div{
+    width: 85px;
+    height: 85px;
+    border: 1px solid #ccc;
+    margin-right: 6px;
+}
+.content .shangping_details .img_box .img_list .btn_left,
+.content .shangping_details .img_box .img_list .btn_right
+{
+    margin: 29px 3px 0 0;
+    width: 17px;
+    height: 34px;
+    background: url('../images/r_left.png');
+    background-size: 100% 100%;
+}
+.content .shangping_details .img_box .img_list .btn_right{
+    background: url('../images/r_right.png');
+    background-size: 100% 100%;
+}
+.content .shangping_details .img_box .img_list div img{
+    width: 100%;
+    height: 100%;
+}
+.content .shangping_details .content{
+    padding: 0;
+}
+.content .shangping_details .content .title h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+.content .shangping_details .content .title p{
+    color: #888;
+    padding: 2px 0;
+}
+.content .shangping_details .content .money{
+    margin-top: 40px;
+}
+.content .shangping_details .content .money p:first-child{
+    margin-bottom: 22px;
+}
+.content .shangping_details .content .money .bendian_money{
+    font-size: 16px;
+    font-weight: bold;
+    color: #f40;
+}
+.content .shangping_details .content .option p span{
+    display: inline-block;
+    padding: 11px 16px;
+    border: 1px solid #ccc;
+}
+.content .shangping_details .content .option p span.active{
+    position: relative;
+    border: 2px solid #f40;
+}
+.content .shangping_details .content .option p span.active::before{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: url('../images/ch.png');
+    background-size: 100% 100%;
+}
+
+.content .shangping_details .content .option {
+    margin-top: 30px;
+}
+.content .shangping_details .content .option p:first-child{
+    margin-bottom: 10px;
+}
+.content .shangping_details .content .option p:last-child{
+    margin: 36px 0 58px;
+}
+.content .shangping_details .content .option p .fengxiang{
+    margin-right: 23px;
+}
+.content .shangping_details .content .option .fengxiang_box {
+    padding-left: 12px;
+}
+.content .shangping_details .content .option .fengxiang_box .feng,
+.content .shangping_details .content .option .fengxiang_box .guanzhu{
+    content:'';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: top;
+    background: url('../images/sh.png');
+    background-size: 100% 100%;
+}
+.content .shangping_details .content .option .fengxiang_box .guanzhu{
+    background: url('../images/care.png');
+    background-size: 100% 100%;
+}
+.content .shangping_details .content .add_cart_box{
+    display: flex;
+}
+.content .shangping_details .content .add_cart_box .input{
+    display: flex;
+}
+.content .shangping_details .content .add_cart_box .input input{
+    width: 58px;
+    height: 46px;
+    outline: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.content .shangping_details .content .add_cart_box .input .btn{
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.content .shangping_details .content .add_cart_box .input .btn button{
+    width: 100%;
+    flex:1;
+    border: 1px solid #ccc;
+    border-left-width: 0;
+}
+.content .shangping_details .content .add_cart_box .input .btn button:first-child{
+    border-bottom: 0;
+}
+.content .shangping_details .content .add_cart_box .add_cart {
+    width: 181px;
+    height: 48px;
+    background: url('../images/j_car.png');
+    background-size: 100% 100%;
+    margin-left: 10px;
+}
+.content .shangping_details .content_logon{
+    width: 190px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content .shangping_details .content_logon .logon{
+    border: 1px solid #ccc;
+
+    width: 100%;
+}
+.content .shangping_details .content_logon img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.content .shangping_details .content_logon .text{
+    padding: 22px 48px; 
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    border-top: 0;
+    width: 192px;
+    box-sizing: border-box;
+}
+/* 推荐商品 */
+.shangping_tuijian{
+    display: flex;
+}
+
+.shangping_tuijian .tuijian_box {
+    display: inline-block;
+    vertical-align: top;
+}
+.shangping_tuijian .tuijian_box .tuijian_nav{
+    background: #f6f6f6;
+    display: flex;
+    border: 1px solid #eaeaea;
+
+}
+.shangping_tuijian .tuijian_box .tuijian_nav li{
+    padding: 8px 28px;
+}
+.shangping_tuijian .tuijian_box .tuijian_nav li.active{
+    background: #fff;
+    border-top: 2px solid #f40;
+    padding: 7px 28px;
+    position: relative;
+}
+.shangping_tuijian .tuijian_box .tuijian_nav li.active::after{
+    content: '';
+    background: #fff;
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    left: 0;
+    bottom: -2px;
+}
+
+.shangping_tuijian .tuijian_box .shangpin{
+   
+}
+.shangping_tuijian .tuijian_box .shangping_box{
+    display: flex;
+    padding: 27px;
+    border: 1px solid #eaeaea;
+
+}
+.shangping_tuijian .tuijian_box .shangpin .text{
+    margin: 36px 0 13px 0;
+}
+.shangping_tuijian .tuijian_box .shangpin .money input{
+    margin-right: 52px;
+}
+.shangping_tuijian .tuijian_box .shangpin .money span{
+    color: #d8b299;
+}
+.shangping_tuijian .tuijian_box .shangping_box .add,
+.shangping_tuijian .tuijian_box .shangping_box .he
+{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url('../images/jia_b.gif');
+    background-size: 100% 100%;
+    margin: 64px 37px 0 72px
+}
+.shangping_tuijian .tuijian_box .shangping_box .he{
+    background: url('../images/equl.gif');
+    background-size: 100% 100%;
+    margin: 64px 22px 0 72px
+}
+.shangping_tuijian .tuijian_box .shangping_box .money .总和{
+    color: #f40;
+}
+.shangping_tuijian .tuijian_box .shangping_box .money .总和 span{
+    font-size: 16px;
+}
+.shangping_tuijian .tuijian_box .shangping_box .money .数量{
+    width: 56px;
+    height: 22px;
+    text-align: center;
+    outline: 0;
+    margin: 12px 0;
+}
+.shangping_tuijian .tuijian_box .shangping_box .money .heBtn{
+    color: #fff;
+    padding: 10px 20px;
+    background: #f40;
+    border: none;
+    border-radius: 3px;
+}
+.shangping_tuijian .tuijian_box .tuijian_nav.shuxing{
+    margin-top: 12px;
+}
+.shangping_tuijian .tuijian_box .miaoshu{
+    display: flex;
+    padding: 42px 26px;
+    border: 1px solid #eaeaea;
+}
+.shangping_tuijian .tuijian_box .miaoshu ol{
+    margin-right: 106px;
+}
+.shangping_tuijian .tuijian_box .miaoshu ol:last-child{
+    margin:0;
+}
+.shangping_tuijian .tuijian_box .miaoshu ol li{
+    line-height: 25px;
+}
+/* 商品详情 */
+.shangping_tuijian .tuijian_box .detail{
+    border: 1px solid #eaeaea;
+}
+.shangping_tuijian .tuijian_box .detail h2{
+    padding: 7px 28px;
+    background: #f6f6f6;
+    border-top: 2px solid #f40;
+    color: #f40;
+}
+.shangping_tuijian .tuijian_box .detail .img_box{
+    padding: 31px 114px;
+}
+.shangping_tuijian .tuijian_box .detail .img_box img{
+    display: block;
+    margin-bottom: 32px;
+}
+.shangping_tuijian .tuijian_box .pinglun{
+    margin-top: 10px;
+
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu{
+    display: flex;
+    border: 1px solid #eaeaea;
+    margin: 27px 22px;
+    padding: 41px 44px;
+
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu .haopingdu{
+    margin-right: 34px;
+    color: #f40;
+
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu .haopingdu h1{
+    font-size: 40px;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu .haopingdu span{
+    display: block;
+    text-align: center;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu  ul li{
+    overflow: hidden;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu  ul .jindu{
+    display: inline-block;
+    width: 123px;
+    height: 12px;
+    background: #eaeaea;
+    margin-top: 3px;
+    position: relative;
+    margin-left: 22px;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_mianshu  ul .jindu:after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100px;
+    background: #f40;
+    left:0;
+    top: 0;
+}
+.shangping_tuijian .tuijian_box .pinglun .text{
+    padding: 0 30px;
+    width: 191px;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.shangping_tuijian .tuijian_box .pinglun .punlunBtn{
+    text-align: center;
+    padding: 0 30px;
+}
+.shangping_tuijian .tuijian_box .pinglun .punlunBtn div{
+}
+.shangping_tuijian .tuijian_box .pinglun .punlunBtn button{
+    padding: 12px 32px; 
+    border: 0;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list{
+    margin-top: 33px;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .user_box{
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+    padding: 22px 22px;
+} 
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .user_box .user{
+    width: 150px;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .user_box .attr{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .user_box div{
+    margin-right: 100px;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .hui{
+    color: #a5a599;
+}
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list ,
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .color p ,
+.shangping_tuijian .tuijian_box .pinglun .pinglun_list .user_pinglun p{
+    line-height: 20px;
+}
+

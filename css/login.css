@@ -1,0 +1,204 @@
+/* 头部 */
+#headerDiv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0px 0px 10px #ccc;
+}
+#headerDiv .logo_box{
+    padding: 14px 66px ;
+}
+#headerDiv .header_nav{
+    display: flex;
+    padding-right: 43px;
+    align-items: flex-start;
+}
+#headerDiv .header_nav ol{
+    padding-top: 15px;
+    display: flex;
+}
+#headerDiv .header_nav ol li {
+    margin-left: 5px;
+}
+#headerDiv .header_nav ol li .login{
+    color: blue;
+}
+#headerDiv .header_nav .help{
+    margin: 11px 0 0 20px;
+    border: 1px solid #cccccc; 
+    padding: 7px 5px 5px 7px;
+}
+#headerDiv .header_nav .help span:nth-of-type(1){
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('../images/runbun.png');
+    background-size: 100% 100%;
+    vertical-align: top;
+}
+#headerDiv .header_nav .help span:nth-of-type(3){
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background: url('../images/loadMore.png');
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+/* 主体 */
+#sectionBody{
+    padding: 0 160px;
+    display: flex;
+}
+#sectionBody .duoshou_box{
+    padding-top: 20px;
+}
+#sectionBody .res{
+    padding-top: 80px;
+    margin-left: 197px;
+    display: flex;
+    flex-direction: column;
+    width: 332px;
+}
+#sectionBody .res .xuanzhe{
+    display: flex;
+    justify-content: space-between;
+}
+#sectionBody .res .xuanzhe a:first-child{
+    font-weight: bold;
+}
+#sectionBody .res .xuanzhe a:last-child{
+    color: blue;
+}
+#sectionBody .res input[type="text"]{
+    width: 100%;
+    height: 54px;
+    text-indent: 4em;
+
+}
+#sectionBody .res .user_name,
+#sectionBody .res .pass_world{
+    position: relative;
+}
+#sectionBody .res .user_name:after,
+#sectionBody .res .pass_world:after
+{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../images/userHead.png');
+    background-size: 100% 100%;
+    top: 18px;
+    left: 20px;
+    position: absolute;
+}
+#sectionBody .res .pass_world:after{
+    background: url('../images/lock.png');
+    background-size: 100% 100%;
+
+}
+#sectionBody .res p{
+    margin-bottom: 10px;
+}
+#sectionBody .res .wanji_btn{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+}
+#sectionBody .res .wanji_btn .zidong span{
+    vertical-align: top;
+}
+#sectionBody .res .longin_btn{
+    padding: 18px;
+    background: #f40;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sectionBody .res .qita{
+    line-height: 20px;
+}
+#sectionBody .res .hezuo{
+    display: flex;
+}
+#sectionBody .res .hezuo img{
+    margin-right: 20px;
+}
+#sectionBody .res .hezuo div {
+    padding-top: 8px;
+}
+#sectionBody .res .hezuo div img{
+    width: 15px;
+    height: 15px;
+    vertical-align: top;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0;
+}
+.footer p{
+    line-height: 30px;
+
+}
+
+/* 注册页面 */
+.section_body {
+    display: flex;
+    justify-content: center;
+}
+.section_body .res_box{
+    width: 328px;
+    display: flex;
+    flex-direction: column ;
+}
+.section_body input{
+    width: 100%;
+    height: 51px;
+    border: 1px solid #999999;
+    text-indent: 3em;
+}
+
+.section_body .res_box .title{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 38px 0 20px;
+    text-align: center;
+
+}
+.section_body .res_box p{
+    margin-bottom: 10px;
+}
+.section_body .res_box .yanzenma{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_body .res_box .yanzenma input{
+    width: 194px;
+}
+.section_body .res_box .yanzenma span{
+    padding: 20px 25px;
+    display: block;
+    background: #57565f;
+    color: #fff;
+    border-radius: 5px;
+}
+.section_body .res_box  .dianji {
+    padding-left: 5px;
+}
+.section_body .res_box  .dianji a{
+    color: blue;
+}
+.section_body .res_box .tongyi_xieyi{
+    padding: 20px 0;
+    background: #f40;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
